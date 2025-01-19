@@ -1,11 +1,11 @@
 {
-  "name": "loan-site",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1" // Если используешь Express
-  }
+    "name": "loan-site",
+    "version": "1.0.0",
+    "main": "backend/server.js",
+    "scripts": {
+        "start": "node backend/server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
