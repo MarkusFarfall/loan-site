@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Займов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать!</h1>
+        <button id="vk-auth">Войти через VK</button>
+        <div id="app" style="display: none;">
+            <h2>Подать заявку на займ</h2>
+            <form id="loan-form">
+                <label for="amount">Сумма (рубли):</label>
+                <input type="number" id="amount" required>
+                <label for="days">Срок (дни):</label>
+                <input type="number" id="days" required>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://vk.com/js/api/openapi.js?169"></script>
+    <script src="script.js"></script>
+</body>
+</html>
